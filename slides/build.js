@@ -3,7 +3,7 @@ const React = require("react");
 const ReactDOMServer = require("react-dom/server");
 const sharp = require("sharp");
 const fa = require("react-icons/fa");
-const { applyTheme } = require("/root/.claude/skills/synced/4c053fe7-4d62-4e6c-9cad-2117193154d1_989ed9bc-3399-4bb9-ac5f-cccc041fe966/pptx/scripts/apply_theme.js");
+const { applyTheme } = require("./apply_theme");
 
 const THEME = {
   name: "ABSA Syntax",
